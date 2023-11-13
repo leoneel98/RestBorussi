@@ -1,0 +1,209 @@
+@font-face {
+    font-family:Alegreya ;
+    src: url("https://fonts.googleapis.com/css?family=Alegreya");
+}
+@media (max-width: 768px) {
+  /* Estilos para pantallas más pequeñas */
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Estilos para pantallas medianas */
+}
+@media (min-width: 992px) {
+  /* Estilos para pantallas grandes */
+}
+
+
+body {font-family: Alegreya; font-style: italic;}
+h1{font-weight: bold;}
+
+.greatw{text-decoration: none; font-weight: bold;}
+
+/* animación para nosotros */
+.animation{ margin-left:12vw; margin-right: 12vw;}
+
+.f{position: relative; animation: myfirst 2s 2; animation-direction: alternate;}
+
+@keyframes myfirst { 0%   { left: 0px; top: 0px;} 50%  {left: 200px; top: 0px;} 100% {left: 0px; top: 0px;}}
+
+
+/* == BEBIDAS== */ 
+
+.input {
+  outline: none;
+  box-sizing: border-box;
+  height: 60px;
+  color: #000;
+  border-radius: 50%;
+  border: 1px solid red;
+  transition: all .7s ease;
+  width: 100%;
+}
+
+.btn-buscar i {
+  font-size: 25px;
+  color: aliceblue
+  line height 34%;
+}
+
+.btn-buscar {
+padding:0 5px;
+background-color: rgb(0, 255, 106);
+line-height: 30px;
+border-radius: 50%;
+text-align: center;
+cursor: pointer;
+transition: .6s;
+}
+
+.container-buscar input:hover  {
+  width: 350px;
+}
+
+
+
+body {font-family: Alegreya; font-style: italic;}
+h1{font-weight: bold;}
+
+.greatw{text-decoration: none; font-weight: bold;}
+
+/* animación para nosotros */
+.animation{ margin-left:12vw; margin-right: 12vw;}
+
+.f{position: relative; animation: myfirst 2s 2; animation-direction: alternate;}
+
+@keyframes myfirst { 0%   { left: 0px; top: 0px;} 50%  {left: 200px; top: 0px;} 100% {left: 0px; top: 0px;}}
+
+
+.bodyCarta {
+  font-family: 'space grotesk';
+  background-color: #131c29;
+  padding-top:8px ;
+}
+
+
+
+.titulo-carta {
+  font-family:  sans-serif;
+  text-align: center;
+  margin: 0px 0px;
+}
+
+.carrito-carta {
+  width: 320px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 20px 20 0px 0px;
+}
+
+.carrito-carta-1 {
+  width: 320px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 20px 20 0px 0px;
+}
+
+.carrito-carta-2 {
+  width: 320px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 20px 20 0px 0px;
+}
+
+.carrito-carta-3 {
+  width: 320px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 20px 20 0px 0px;
+}
+
+.Headercarta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15%;
+  height: 70px;
+  top: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+.carrito-carta {
+  filter: invert();
+  width: 45px;
+  height: auto;
+
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.contenedor>div {
+  box-shadow: 0px 0px;
+  background-color: #2D4263;
+  border-radius: 20px;
+
+}
+
+.contenedor>div:hover {
+  background-color: #11294d;
+
+}
+
+.informacion {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.informatcion>p:first-child{
+  font-family:'Monserrat', sans-serif; 
+  font-size: 25px;
+  font-weight: 300;
+
+}
+
+.informatcion.precio {
+  font-size: 20px;
+  font-weight: 300;
+
+}
+
+.informatcion button {
+  background-color: #253143;
+  width: 100px;
+  height: 35;
+  border-radius: 10px;
+  border: none;
+
+  font-size: 17px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.informatcion button:hover {
+  background-color: #11294d;
+}
+
+.scroll {
+  background-color: aliceblue;
+  box-shadow: .1rem .2rem .3rem #333;
+
+}
+
+.scroll .carrito-carta {
+  filter: invert(15%);
+}
+
+.carrito-carta {
+  filter: invert(100%);
+  width: 45px;
+  height: auto;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- boostrap -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+      <link rel="stylesheet" href="https://fontawesome.com/icons/arrow-left?f=sharp&s=light&an=beat-fade&sz=2xs&pc=%23553880">
+      <!-- ---------- -->
+      <!-- jQuery debe venir primero, luego Popper y luego nuestros complementos de JavaScript. Scrips separados -->
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+     <!-- ----------- -->
+     <link rel="stylesheet" href="stilo.css">
+     <link rel="stylesheet" href="estilofood.css">
+     <link rel="stylesheet" href="../cartaComida/estiloCarta.css">
+    <!-- iconos -->
+   <script src="https://kit.fontawesome.com/288ab0ca08.js" crossorigin="anonymous"></script>
+  
+   <!-- ----- -->
+   <link rel="shortcut icon" href="/copavino.ico" type="image/x-icon">
+    <title>Carta de alimentos</title>
+</head>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="copavino.ico" alt="Avatar Logo" style="width:40px;" class="rounded-pill" a href="http://127.0.0.1:5500/restborussia/index.html"> 
+      </a>
+
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="foodcard.html">Carta alimentos</a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="reservas.html">Reservas</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="quienessomos.html">Quiénes somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contribuciones.html">Contribuciones</a>
+          </li> 
+        </ul>
+      </div>
+      <h1 class="titulo-carta" style="padding: 35px; color:#fff; ">Borussia</h1> 
+
+      
+    </div>
+  </nav>
+<body class="bodyCarta">
+   
+    
+    
+
+    <header id="Headercarta"> 
+
+        
+        <h1 style="color: aliceblue;">Carta Exclusiva</h1>
+         <img class="carrito-carta" src="carro-de-la-carretilla.png" alt="img">
+    
+         <div class="contenedor" id="contenedor">
+
+            <div>
+                <img class="carrito-carta-1" src="../bebidas/bebidas-con-licuadora.jpg" alt="producto-1" style="animation-play-state: inherit;">
+    
+                <div class="Informacion">
+
+                   <p id="letra producto" style="padding-left: 5px; color: aliceblue;">TRAGOS </p>
+                   
+                    <div class="boton1">
+                      <a href="../cartaComida/Carta.html">
+                        <button class="btn1" style="padding: 10px;">Ver mas</button>
+                      </a>
+                      
+                    </div>
+                   
+                </div>
+
+
+            </div>
+
+            <div>
+                <img class="carrito-carta-2" src="../bebidas/download.jpg" alt="producto-1">
+    
+                <div class="Informacion">
+                   <p class="letra-producto-3" style="padding-left: 5px; color: aliceblue;">CERVEZAS</p>
+                   <button id="boton2" style="padding: 10px;">Ver mas</button>
+                </div>
+
+            </div>
+            <div>
+                <img class="carrito-carta-3" src="../bebidas/images.jpg" alt="producto-3"> 
+    
+                <div class="Informacion">
+                   <p style="padding-left: 5px; color: aliceblue;" >VINOS</p>
+
+                   <div boton1>
+
+                   
+                    <button id="boton3" style="padding: 10px; border-radius:50%;">Ver mas </button>
+                        
+                    
+                    </button>
+
+                    
+
+                   </div>
+                  
+   
+                
+                </div>
+
+
+            </div>
+            
+          
+        </div>
+                  
+        
+          
+      </header>
+
+
+    <main>
+    <i class="fa-solid fa-download fa-2xl"></i>
+    <a download="cartafood.pdf" href="cartafood.pdf"> carta </a>
+    </main>
+
+    <script src="../restborussia/carrito.js"></script>
+</body>
+</html>
